@@ -1,0 +1,27 @@
+<script>
+    let x, y;
+    x = parseInt(prompt("Enter value for x"))
+    y = parseInt(prompt("Enter value for y"))
+    sign = prompt("Enter Operand")
+
+    let a = x+y;
+    let b = x-y;
+    let c = x/y;
+    let d = x*y;
+
+    if (sign === "+") {
+        alert("The value of x + y is: " + a);
+    }
+    else if (sign === "-"){
+        alert("The value of x - y is: " + b);
+    }
+    else if (sign === "/"){
+        alert("The value of x / y is: " + c);
+    }
+    else if (sign === "*"){
+        alert("The value of x * y is: " + d);
+    }
+    else {
+        alert("You have not entered a sign yet");
+    }
+</script>
